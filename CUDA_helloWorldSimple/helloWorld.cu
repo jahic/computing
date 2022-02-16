@@ -12,6 +12,6 @@ __global__ void cuda_hello(){
 int main() 
 {
 	// TODO: Try changing grid size (e.g., <<1,6>>) to see what happens. 
-    cuda_hello<<<2,4>>>(); 
+    cuda_hello<<<2,4,5>>>(); 
     return 0;
 }

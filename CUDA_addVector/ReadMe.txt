@@ -1,0 +1,2 @@
+- Download CUDA from: https://developer.nvidia.com/cuda-downloads
+- Start programs (on Windows) with: timer.bat add.exe 
